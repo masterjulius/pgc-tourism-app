@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:icon="@mipmap/ic_home_white_24dp"
+        android:title="Home" />
+
+    <item android:id="@+id/menu_travel_tour_agencies"
+        android:icon="@mipmap/ic_airplanemode_active_white_24dp"
+        android:title="Travel and Tours Agencies" />
+
+    <item android:id="@+id/menu_accom_establishments"
+        android:icon="@mipmap/ic_domain_white_24dp"
+        android:title="Accomodation Establishments" />
+
+    <item android:id="@+id/meu_native_dialect"
+        android:icon="@mipmap/ic_record_voice_over_white_24dp"
+        android:title="Native Dialect" />
+
+    <item android:id="@+id/menu_tourist_attractions"
+        android:icon="@mipmap/ic_nature_people_white_24dp"
+        android:title="Tourist Attractions" />
+
+    <item android:id="@+id/menu_accom_resturants"
+        android:icon="@mipmap/ic_restaurant_white_24dp"
+        android:title="Accomodations and Restaurants" />
+
+    <item android:id="@+id/menu_how_to_get_there"
+        android:icon="@mipmap/ic_directions_bus_white_24dp"
+        android:title="How To Get There" />
+
+    <item android:id="@+id/menu_how_to_get_around"
+        android:icon="@mipmap/ic_directions_white_24dp"
+        android:title="How To Get Around" />
+
+    <item android:id="@+id/menu_activities"
+        android:icon="@mipmap/ic_local_activity_white_24dp"
+        android:title="Activities" />
+
+    <item android:id="@+id/menu_videos"
+        android:icon="@mipmap/ic_video_library_white_24dp"
+        android:title="Videos" />
+
+    <item android:id="@+id/menu_about"
+        android:icon="@mipmap/ic_lightbulb_outline_white_24dp"
+        android:title="About" />
+
+</menu>
