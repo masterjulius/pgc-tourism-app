@@ -7,14 +7,6 @@
     tools:context="ph.gov.cagayan.tourismappv10.MainActivity"
     android:id="@+id/drawerLayout_home">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-
-    </LinearLayout>
-
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -23,5 +15,79 @@
         app:headerLayout="@layout/navigation_header">
 
     </android.support.design.widget.NavigationView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:alignmentMode="alignBounds"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp">
+
+        <Button android:layout_width="0dp"
+            android:id="@+id/btn_gt_news"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/news"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"/>
+
+        <Button android:layout_width="0dp"
+            android:id="@+id/btn_gt_tips"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/tips"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"/>
+
+        <Button android:layout_width="0dp"
+            android:id="@+id/btn_gt_trips"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/trips"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"/>
+
+        <Button android:layout_width="0dp"
+            android:id="@+id/btn_gt_foods"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/food"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"/>
+
+        <Button android:layout_width="0dp"
+            android:id="@+id/btn_gt_popular"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/r2d2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"/>
+
+    </GridLayout>
 
 </android.support.v4.widget.DrawerLayout>
